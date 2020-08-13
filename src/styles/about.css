@@ -1,0 +1,38 @@
+.Abouttitle {
+  width: 100vw;
+  height: 10vh;
+  display: grid;
+  place-items: center;
+  background: #393939;
+  color: #fff;
+  letter-spacing: 0.2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Abouttitle .link {
+  color: #636363;
+}
+
+.About {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #303030;
+}
+
+.Box {
+  max-width: 500px;
+  padding: 20px;
+  text-align: left;
+  border-radius: 10px;
+  height: auto;
+  margin: 15px 0;
+  line-height: 1.4em;
+  color: #fbfbfb;
+  background: #4e4e4e;
+}

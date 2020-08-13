@@ -1,0 +1,39 @@
+.message {
+  max-width: fit-content;
+  margin: 10px 10px;
+}
+.message_user {
+  margin-left: auto;
+  text-align: left;
+}
+#msgtext {
+  padding: 9px 15px;
+  width: 100%;
+  letter-spacing: 0;
+  font-size: 1.1em;
+  word-wrap: break-word;
+}
+
+.message_userCard {
+  background-color: #0051ff;
+  color: #fbfbfb;
+  border-radius: 15px 15px 2px 15px;
+  margin-left: 10vw;
+  text-align: right;
+  margin-right: 10px;
+}
+.message_guestCard {
+  background-color: #ebebeb;
+  margin-right: 10vw;
+  border-radius: 15px 15px 15px 2px;
+  text-align: left;
+}
+
+.messagesBox {
+  background: #fbfbfb;
+  padding-bottom: 10vh;
+  height: 60vh;
+  width: 100%;
+  overflow: auto;
+  flex: auto;
+}

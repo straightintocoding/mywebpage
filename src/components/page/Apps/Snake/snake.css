@@ -1,0 +1,34 @@
+.snake {
+  width: fit-content;
+  height: 75vh;
+  display: grid;
+  place-items: center;
+}
+
+.snake img {
+  border: 5px solid rgb(0, 110, 255);
+  border-radius: 15px;
+  width: fit-content;
+  height: auto;
+  margin: 0px 20px;
+}
+
+.snakebtn {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 20px;
+  color: #fbfbfb;
+  border-radius: 10px;
+  background: rgb(255, 59, 59);
+}
+
+.snakebtn:hover {
+  background: rgb(170, 11, 11);
+}
+
+@media screen and (max-width: 600px) {
+  .snake img {
+    width: 400px !important;
+    height: auto;
+  }
+}

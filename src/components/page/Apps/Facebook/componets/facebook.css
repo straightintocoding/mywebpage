@@ -1,0 +1,66 @@
+button {
+  border: none;
+  border-radius: 2px;
+  padding: 12px 18px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  background-color: #2196f3;
+
+  outline: none;
+}
+
+/* Ripple effect */
+.ripple {
+  background-position: center;
+  transition: background 0.4s;
+}
+.ripple:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%)
+    center/15000%;
+}
+.ripple:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.Topbar {
+  background-color: rgb(58, 58, 58);
+  padding: 20px 0;
+  font-size: 0.7em;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.205);
+  color: #fbfbfb;
+  border-radius: 10px 10px 0 0;
+}
+.bottomBar {
+  width: 100%;
+  height: 7vh;
+  z-index: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+input[type="input"]:focus {
+  border: 3px solid rgb(132, 255, 193);
+}
+input[type="input"] {
+  width: 100%;
+  height: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+.centerfb {
+  display: grid;
+  place-content: center;
+  width: 100vw;
+  background: #272727;
+}
+.Facebookapp {
+  width: 400px;
+  margin: 30px 0;
+  border: 2px solid #00e1ff;
+  border-radius: 10px;
+}
